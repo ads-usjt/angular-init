@@ -121,8 +121,15 @@
               "devServerTarget": "ADS2ANBUA-angular-intro:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "angular-init"
+          }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "ADS2ANBUA-angular-intro"
 }
