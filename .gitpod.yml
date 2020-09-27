@@ -1,0 +1,3 @@
+tasks:
+  - init: yarn global add @angular/cli; yarn
+    command: ng serve
