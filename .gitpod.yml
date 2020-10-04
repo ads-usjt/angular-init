@@ -11,5 +11,6 @@ ports:
   onOpen: open-preview
 
 tasks:
-  - init: export NG_CLI_ANALYTICS=off off; npm i -g @angular/cli; yarn
+  - before: export NG_CLI_ANALYTICS=off off
+    init: npm i -g @angular/cli; yarn
     command: ng serve
