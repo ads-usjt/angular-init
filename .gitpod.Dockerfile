@@ -1,6 +1,6 @@
 FROM node:alpine
 
-WORKDIR /usr/app
+WORKDIR /home/gitpod/ng-app
 
 COPY package*.json ./
 RUN export NG_CLI_ANALYTICS=off off
