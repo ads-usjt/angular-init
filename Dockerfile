@@ -4,7 +4,7 @@ WORKDIR /usr/app
 
 COPY package*.json ./
 RUN export NG_CLI_ANALYTICS=off off
-RUN npm i -g @angular/cli npm yarn
+RUN npm i -g @angular/cli
 RUN yarn install
 
 COPY . .
